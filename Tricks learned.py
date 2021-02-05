@@ -667,9 +667,15 @@ except Exception as e:
 # Using j - the imaginary number
 
 number_1 = 23
-print(number_1)
+
 number_1 = 23j
-print(number_1)
+
+
+# Working with dictionaries.
+
+a_dict = {1:'a', 2:'b'}
+b_dict_copy_a = {**a_dict} # This is a copy and will not interfere with the above - without copy or deepcopy
+
 
 #Learn following
 
