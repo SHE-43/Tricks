@@ -31,7 +31,7 @@ locals()["local_var"] = "Local variable"
 
 print(local_var)
 
-# AND
+# AND 
 
 import sys
 
