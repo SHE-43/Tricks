@@ -1,10 +1,7 @@
-def adderFunc(a,b):
-    return (a+b)
 from dis import dis
 
-
-print(adderFunc(43,43))
-print("\n\n\n")
+def adderFunc(a,b):
+    return (a+b)
 
 def forAssembly():
     a = 43;
@@ -14,4 +11,7 @@ def forAssembly():
     return c
 
 
-print(dis(forAssembly))
+dis(adderFunc)
+dis(forAssembly)
+
+# The dis (disassembly) method will show you the steps taken by assembly language.
