@@ -1,6 +1,5 @@
 import timeit
 
-#print(dir(timeit))
 f = timeit.timeit()
 f1 = timeit.time
 
@@ -29,46 +28,8 @@ def fibo_list(number): # number = 3
 
 d = {'number':[x for x in range(25, 46)]}
 
-print(fibo_list(1))
-print(fibo_list(2))
-print(fibo_list(3))
-print(fibo_list(4))
-print(fibo_list(5))
-print(fibo_list(6))
-print(fibo_list(7))
-print(fibo_list(8+1))
-print(fibo_list(8+1+1))
-print(fibo_list(8+1+1+1))
-print(fibo_list(8+1+1+1+1))
-print(fibo_list(8+1+1+1+1+1))
-print(fibo_list(8+1+1+1+1+1+1))
-print(fibo_list(8+1+1+1+1+1+1+1))
-print(fibo_list(8+1+1+1+1+1+1+1+1))
-
-print("\n\nMoving on to for LOOP\n\n")
 
 for turn in range(len( d['number'] )):
     print(d['number'][turn])
     print(fibo_list(**d         )) # Changing the format of the dictionary and then opening it, possibly.
     # Unzip the dictionary so that d[number] == 25 (single number) single, like me!
-
-
-#print(fibo_list(  **d       ))
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
