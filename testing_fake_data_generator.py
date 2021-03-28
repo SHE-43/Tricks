@@ -24,7 +24,7 @@ df["Contact"] = contact_numbers
 df["DOB"] = dobs
 df["Address"] = addresses
 
-print(df)
+
 
 writer = pd.ExcelWriter(path)
 df.to_excel(writer, index = False)
